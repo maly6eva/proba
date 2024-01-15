@@ -3,52 +3,253 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4 правила вёрстки</title>
-    <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/fonts/fonts.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Fira+Sans:wght@500&family=Inter+Tight:wght@400;700&family=Inter:wght@300;400;700;800&family=Orbitron:wght@400;600;700&family=Poppins:wght@400;500;600;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
-    <div class="overlay">
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__block">
+                <a href="#" class="header__logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+<!--            header__block-->
+            <nav class="nav">
+                <a href="#" class="nav__link active">Main</a>
+                <a href="#" class="nav__link">Our services</a>
+                <a href="#" class="nav__link">About</a>
+                <a href="#" class="nav__link">Contacts</a>
+            </nav>
 
-        <h1 class="header-title">Правила вёрстки</h1>
-        <h2>Правило</h2>
+            <div class="header__block">
+                <div class="header__lng">
+                    <a class="header__lng-link" href="#">ru</a>
+                    <a class="header__lng-link active" href="#">EN</a>
+                </div>
+            </div>
+
+
+        </div>
+<!--        header__wrapper-->
+
     </div>
+<!--    container-->
+
 </header>
-<section class="content">
-    <div class="card">
-        <img class="card-image"
-             src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-1.jpg"
-             alt="Неоновые лампочки в виде символов светятся красным" />
-        <h3 class="card-title">Пустота</h3>
-        <p class="card-text">Простое правило, которое часто нарушают: ставить рядом элементы с похожим смыслом и окружать их пустым пространством. Пустота — мощное средство воздействия.</p>
-    </div>
-    <div class="card no-right-margin">
-        <img class="card-image"
-             src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-2.jpg"
-             alt="Разметка тенисного корта крупным планом" />
-        <h3 class="card-title">Сетка</h3>
-        <p class="card-text">Размеры элементов и расстояния между ними укладываются в гармоничную схему — её называют сеткой. Если элемент выпадает, зритель может это заметить.</p>
-    </div>
-    <div class="card">
-        <img class="card-image"
-             src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-3.jpg"
-        />
-        <h3 class="card-title">Шрифты</h3>
-        <p class="card-text">Не больше трёх шрифтов на сайт. Один для заголовков, второй — для всех остальных текстов, третий — для выделения важных слов. Должно хватить.</p>
-    </div>
-    <div class="card no-right-margin">
-        <img class="card-image"
-             src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-4.jpg"
-        />
-        <h3 class="card-title">Цвета</h3>
-        <p class="card-text">Обычно на сайте два цвета: ведущий и акцентный. Подобрать удачную цветовую пару можно за счёт насмотренности или специальных инструментов.</p>
+<section class="intro">
+    <div class="container">
+        <div class="intro__content">
+            <div class="intro__block">
+                <h1 class="intro__title">
+                    KEEPING YOU ON THE ROAD WITH
+                    SERVICE YOU CAN TRUST
+                </h1>
+                <a href="#">
+                    <div class="btn">Show more</div>
+                </a>
+
+            </div>
+
+        </div>
     </div>
 </section>
-<footer class="footer">
-    <h4 class="footer-author">Следуй за мечтой</h4>
-</footer>
+
+<section class="info">
+    <div class="container">
+        <div class="wrapper">
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="images/phone.svg" alt="">
+                    </div>
+                    <h3 class="info__title">
+                        CALL US NOW 222-222-222
+                    </h3>
+                    <p class="info__text">
+                        Feel free to call us
+                    </p>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="images/calendar.svg" alt="">
+                    </div>
+                    <h3 class="info__title">
+                        GET FREE APPOITMET
+                    </h3>
+                    <p class="info__text">
+                        Free Diagnosis & Brake Checks
+                    </p>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="info__item">
+                    <div class="info__img">
+                        <img src="images/flags.svg" alt="">
+                    </div>
+                    <h3 class="info__title">
+                        FIND US ON MAP
+                    </h3>
+                    <p class="info__text">
+                        New York, 1286 Ruumu Nanor
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="block__title">
+            OUR SERVICES
+        </h2>
+        <a class="block__link" href="#">
+            VIEW ALL SERVICES
+        </a>
+
+        <div class="wrapper">
+            <div class="block">
+                <a class="services__item" href="#">
+                    <div class="services__content" style="background-image:url('images/diagnostic.jpg');">
+                         <div class="services__content-item">
+                          <div class="services__img">
+                              <img src="images/plus.svg" alt="">
+                          </div>  
+                        <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                         </div>
+                    </div>
+
+                        <h3 class="services__title">
+                            DIAGNOSTIC
+                        </h3>
+                </a>
+            </div>
+            <div class="block">
+                <a class="services__item" href="#">
+                    <div class="services__content" style="background-image:url('images/card2.jpg');">
+                        <div class="services__content-item">
+                            <div class="services__img">
+                                <img src="images/plus.svg" alt="">
+                            </div>
+                            <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title">
+                        TIRES & WHEELS
+                    </h3>
+                </a>
+            </div>
+            <div class="block">
+                <a class="services__item" href="#">
+                    <div class="services__content" style="background-image:url('images/card3.jpg');">
+                        <div class="services__content-item">
+                            <div class="services__img">
+                                <img src="images/plus.svg" alt="">
+                            </div>
+                            <p class="services__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title">
+                        ENGINES
+                    </h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<script src="./js/alert.js"></script>-->
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
